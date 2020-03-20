@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kid-5O-Qtx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kid-5O-Qtx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zVK-Dr-CDD">
-                                <rect key="frame" x="140" y="272" width="134" height="352"/>
+                                <rect key="frame" x="140" y="249" width="134" height="398"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJq-fA-1kc">
                                         <rect key="frame" x="0.0" y="0.0" width="134" height="30"/>
@@ -25,50 +25,57 @@
                                             <segue destination="h7R-hm-W5H" kind="show" id="7Co-Mk-Oim"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj9-Dn-gqd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0m-M5-XzG">
                                         <rect key="frame" x="0.0" y="46" width="134" height="30"/>
+                                        <state key="normal" title="Cell Editing"/>
+                                        <connections>
+                                            <segue destination="Lkg-yK-egk" kind="show" id="n7z-CB-bZa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj9-Dn-gqd">
+                                        <rect key="frame" x="0.0" y="92" width="134" height="30"/>
                                         <state key="normal" title="Cell AccessoryType"/>
                                         <connections>
                                             <segue destination="bdE-Ab-eDj" kind="show" id="i6n-Gb-G4H"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-VY-pnI">
-                                        <rect key="frame" x="0.0" y="92" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="138" width="134" height="30"/>
                                         <state key="normal" title="Separator Style"/>
                                         <connections>
                                             <segue destination="5GF-PK-Zvj" kind="show" id="cV3-9Q-TwT"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omm-gQ-op0">
-                                        <rect key="frame" x="0.0" y="138" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="184" width="134" height="30"/>
                                         <state key="normal" title="Table Style"/>
                                         <connections>
                                             <segue destination="Yll-Yb-bYr" kind="show" id="uda-cq-tY3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHs-VS-tQB">
-                                        <rect key="frame" x="0.0" y="184" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="230" width="134" height="30"/>
                                         <state key="normal" title="Grouped Detail"/>
                                         <connections>
                                             <segue destination="2qo-Fy-I1C" kind="show" id="0Vp-uO-0Ft"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFn-tD-kSY">
-                                        <rect key="frame" x="0.0" y="230" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="276" width="134" height="30"/>
                                         <state key="normal" title="Color Cell"/>
                                         <connections>
                                             <segue destination="8r0-Pn-g4l" kind="show" id="uUf-Qm-OhB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze4-Lv-eEy">
-                                        <rect key="frame" x="0.0" y="276" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="322" width="134" height="30"/>
                                         <state key="normal" title="Selected Color Cell"/>
                                         <connections>
                                             <segue destination="n1Q-aj-CM0" kind="show" id="taB-KX-ubf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiG-B7-CY5">
-                                        <rect key="frame" x="0.0" y="322" width="134" height="30"/>
+                                        <rect key="frame" x="0.0" y="368" width="134" height="30"/>
                                         <state key="normal" title="Color Section"/>
                                         <connections>
                                             <segue destination="5rX-Jy-ush" kind="show" id="fUt-Mo-gpd"/>
@@ -782,6 +789,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOy-bb-60j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-275" y="-155"/>
+        </scene>
+        <!--Cell Editing-->
+        <scene sceneID="FlP-aa-7EZ">
+            <objects>
+                <tableViewController id="Lkg-yK-egk" customClass="CellEditingTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oeS-5h-Mze">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="ECX-n6-T3i" style="IBUITableViewCellStyleDefault" id="LU9-iZ-M5q">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LU9-iZ-M5q" id="5AL-aT-ERT">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ECX-n6-T3i">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lkg-yK-egk" id="cIr-sz-81t"/>
+                            <outlet property="delegate" destination="Lkg-yK-egk" id="Ctf-fd-xs0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Cell Editing" id="2ga-mp-DtU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlL-7z-FtE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="1097"/>
         </scene>
     </scenes>
 </document>
