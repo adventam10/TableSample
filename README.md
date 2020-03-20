@@ -1,6 +1,10 @@
 # TableSample
 Table View sample.
 
+# Development Environment
+* Xcode 11.3
+* Deployment Target iOS13.0
+
 # None Custom Class
 | Cell Style | AccessoryType | Color Cell | Selected Color |
 | --- | --- | --- | --- |
