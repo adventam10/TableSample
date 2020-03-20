@@ -822,20 +822,7 @@
                             <outlet property="delegate" destination="Lkg-yK-egk" id="Ctf-fd-xs0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Cell Editing" id="2ga-mp-DtU">
-                        <rightBarButtonItems>
-                            <barButtonItem title="Edit" id="IKp-sS-kuY">
-                                <connections>
-                                    <action selector="didTapEditButton:" destination="Lkg-yK-egk" id="QmV-wy-tuO"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="Add" id="VqA-2c-JNT">
-                                <connections>
-                                    <action selector="didTapAddButton:" destination="Lkg-yK-egk" id="R6B-QU-eWz"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Cell Editing" id="2ga-mp-DtU"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rlL-7z-FtE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

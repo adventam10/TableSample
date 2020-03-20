@@ -22,15 +22,11 @@ class CellEditingTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapAddButton(_:)))
+        navigationItem.rightBarButtonItems = [editButtonItem, addButton]
     }
-    
-    @IBAction func didTapEditButton(_ sender: UIBarButtonItem) {
-        let editing: Bool = isEditing
-        sender.title = editing ? "Edit" : "Done"
-        setEditing(!editing, animated: true)
-    }
-    
-    @IBAction func didTapAddButton(_ sender: UIBarButtonItem) {
+        
+    @objc func didTapAddButton(_ sender: UIBarButtonItem) {
         tableDataList.append(CellData(title: "Editable", editable: true))
         let lastIndex = tableDataList.count - 1
         tableView.beginUpdates()
