@@ -24,6 +24,7 @@
 		0E63F388242507AF0086D9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E63F387242507AF0086D9CC /* Main.storyboard */; };
 		0E63F38A2425091B0086D9CC /* Operations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E63F3892425091B0086D9CC /* Operations.storyboard */; };
 		0E63F38C242512950086D9CC /* MultiSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */; };
+		0E63F38E24251D3E0086D9CC /* UnselectablePartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		0E63F387242507AF0086D9CC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0E63F3892425091B0086D9CC /* Operations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Operations.storyboard; sourceTree = "<group>"; };
 		0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionTableViewController.swift; sourceTree = "<group>"; };
+		0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnselectablePartsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				0E63F3892425091B0086D9CC /* Operations.storyboard */,
 				0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */,
+				0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				0E1ED1762424894400714B52 /* CellAccessoryTypeTableViewController.swift in Sources */,
 				0E63F38C242512950086D9CC /* MultiSelectionTableViewController.swift in Sources */,
 				0E1ED17E24249DC000714B52 /* ColorCellTableViewController.swift in Sources */,
+				0E63F38E24251D3E0086D9CC /* UnselectablePartsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

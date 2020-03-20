@@ -32,13 +32,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UBh-Ja-tcg">
-                                <rect key="frame" x="156" y="433" width="102" height="30"/>
+                                <rect key="frame" x="142" y="410" width="130" height="76"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOW-wc-Ry5">
-                                        <rect key="frame" x="0.0" y="0.0" width="102" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
                                         <state key="normal" title="Multi Selection"/>
                                         <connections>
                                             <segue destination="f3K-hC-wSP" kind="show" id="25P-Zz-xSj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDk-aj-aoo">
+                                        <rect key="frame" x="0.0" y="46" width="130" height="30"/>
+                                        <state key="normal" title="Unselectable parts"/>
+                                        <connections>
+                                            <segue destination="pt1-DN-OMR" kind="show" id="zj5-1v-7y0"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -94,6 +101,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tI0-QA-ik1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="94"/>
+        </scene>
+        <!--Unselectable parts-->
+        <scene sceneID="dd2-Vx-Cg6">
+            <objects>
+                <tableViewController id="pt1-DN-OMR" customClass="UnselectablePartsTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YeJ-KQ-Aqa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="hmd-WQ-YnT" style="IBUITableViewCellStyleDefault" id="CGC-Lk-k7P">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CGC-Lk-k7P" id="4RC-FI-urB">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hmd-WQ-YnT">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pt1-DN-OMR" id="afO-pR-95Q"/>
+                            <outlet property="delegate" destination="pt1-DN-OMR" id="LrC-a9-Edx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Unselectable parts" id="Q3c-OH-odq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vrY-eO-FzR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="773"/>
         </scene>
     </scenes>
 </document>
