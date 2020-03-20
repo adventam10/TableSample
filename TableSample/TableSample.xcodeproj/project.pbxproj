@@ -107,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				0E1ED16224247ED700714B52 /* DefaultAppearances.storyboard */,
-				FAA3C55B2424E6BA000E70D6 /* CellEditingTableViewController.swift */,
 				0E1ED1752424894400714B52 /* CellAccessoryTypeTableViewController.swift */,
 				0E1ED17724248D8800714B52 /* SeparatorStyleViewController.swift */,
 				0E1ED179242494C300714B52 /* TableStyleViewController.swift */,
@@ -126,6 +125,7 @@
 				0E63F3892425091B0086D9CC /* Operations.storyboard */,
 				0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */,
 				0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */,
+				FAA3C55B2424E6BA000E70D6 /* CellEditingTableViewController.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
