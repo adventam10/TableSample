@@ -74,7 +74,7 @@
 			children = (
 				0E1ED15C24247ED700714B52 /* AppDelegate.swift */,
 				0E1ED15E24247ED700714B52 /* SceneDelegate.swift */,
-				0E1ED17024247EF300714B52 /* Table */,
+				0E1ED17024247EF300714B52 /* Tables */,
 				0E1ED16024247ED700714B52 /* ViewController.swift */,
 				0E1ED16224247ED700714B52 /* Main.storyboard */,
 				0E1ED16524247ED800714B52 /* Assets.xcassets */,
@@ -84,10 +84,18 @@
 			path = TableSample;
 			sourceTree = "<group>";
 		};
-		0E1ED17024247EF300714B52 /* Table */ = {
+		0E1ED17024247EF300714B52 /* Tables */ = {
 			isa = PBXGroup;
 			children = (
-				0E1ED1732424861E00714B52 /* CellStyleTableViewController.swift */,
+				0E63F3862425071A0086D9CC /* Operations */,
+				0E63F385242506E40086D9CC /* DefaultAppearances */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		0E63F385242506E40086D9CC /* DefaultAppearances */ = {
+			isa = PBXGroup;
+			children = (
 				0E1ED1752424894400714B52 /* CellAccessoryTypeTableViewController.swift */,
 				0E1ED17724248D8800714B52 /* SeparatorStyleViewController.swift */,
 				0E1ED179242494C300714B52 /* TableStyleViewController.swift */,
@@ -95,8 +103,16 @@
 				0E1ED17D24249DC000714B52 /* ColorCellTableViewController.swift */,
 				0E1ED17F2424A1A700714B52 /* SelectedColorCellTableViewController.swift */,
 				0E63F3832424D8380086D9CC /* ColorSectionTableViewController.swift */,
+				0E1ED1732424861E00714B52 /* CellStyleTableViewController.swift */,
 			);
-			path = Table;
+			path = DefaultAppearances;
+			sourceTree = "<group>";
+		};
+		0E63F3862425071A0086D9CC /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
