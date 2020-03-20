@@ -20,6 +20,7 @@
 		0E1ED17C24249A4100714B52 /* GroupedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED17B24249A4100714B52 /* GroupedDetailViewController.swift */; };
 		0E1ED17E24249DC000714B52 /* ColorCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED17D24249DC000714B52 /* ColorCellTableViewController.swift */; };
 		0E1ED1802424A1A700714B52 /* SelectedColorCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED17F2424A1A700714B52 /* SelectedColorCellTableViewController.swift */; };
+		0E63F3842424D8380086D9CC /* ColorSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63F3832424D8380086D9CC /* ColorSectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0E1ED17B24249A4100714B52 /* GroupedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedDetailViewController.swift; sourceTree = "<group>"; };
 		0E1ED17D24249DC000714B52 /* ColorCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellTableViewController.swift; sourceTree = "<group>"; };
 		0E1ED17F2424A1A700714B52 /* SelectedColorCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorCellTableViewController.swift; sourceTree = "<group>"; };
+		0E63F3832424D8380086D9CC /* ColorSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				0E1ED17B24249A4100714B52 /* GroupedDetailViewController.swift */,
 				0E1ED17D24249DC000714B52 /* ColorCellTableViewController.swift */,
 				0E1ED17F2424A1A700714B52 /* SelectedColorCellTableViewController.swift */,
+				0E63F3832424D8380086D9CC /* ColorSectionTableViewController.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E63F3842424D8380086D9CC /* ColorSectionTableViewController.swift in Sources */,
 				0E1ED17C24249A4100714B52 /* GroupedDetailViewController.swift in Sources */,
 				0E1ED16124247ED700714B52 /* ViewController.swift in Sources */,
 				0E1ED17A242494C300714B52 /* TableStyleViewController.swift in Sources */,
