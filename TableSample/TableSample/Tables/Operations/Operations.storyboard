@@ -32,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UBh-Ja-tcg">
-                                <rect key="frame" x="142" y="387" width="130" height="122"/>
+                                <rect key="frame" x="142" y="364" width="130" height="168"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOW-wc-Ry5">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
@@ -53,6 +53,13 @@
                                         <state key="normal" title="Cell Editing"/>
                                         <connections>
                                             <segue destination="hGc-Us-x59" kind="show" id="bCX-l1-zk2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-HR-aeg">
+                                        <rect key="frame" x="0.0" y="138" width="130" height="30"/>
+                                        <state key="normal" title="Context Menu"/>
+                                        <connections>
+                                            <segue destination="rMX-Fk-67x" kind="show" id="GsS-GV-aaY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -108,6 +115,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tI0-QA-ik1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="94"/>
+        </scene>
+        <!--Context Menu-->
+        <scene sceneID="kzU-Lt-u1x">
+            <objects>
+                <tableViewController id="rMX-Fk-67x" customClass="ContextMenuTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Xph-yr-SVX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="gtL-pj-OLp" style="IBUITableViewCellStyleDefault" id="8Pp-Bc-7d4">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Pp-Bc-7d4" id="V7R-zV-8u7">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gtL-pj-OLp">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rMX-Fk-67x" id="wWu-Cc-wJY"/>
+                            <outlet property="delegate" destination="rMX-Fk-67x" id="pmM-Ln-Rib"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Context Menu" id="UGZ-Ny-fYQ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZEk-DN-anc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="-591"/>
         </scene>
         <!--Unselectable parts-->
         <scene sceneID="dd2-Vx-Cg6">
