@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YJG-tj-rq8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Pkl-29-vVg">
+            <objects>
+                <navigationController id="YJG-tj-rq8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G58-4K-Gfe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="39N-nd-rDe" kind="relationship" relationship="rootViewController" id="lpi-Up-5Sl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xim-F0-d3P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1003" y="82"/>
+        </scene>
+        <!--Customs-->
+        <scene sceneID="mh8-zJ-F0j">
+            <objects>
+                <viewController storyboardIdentifier="Initial" id="39N-nd-rDe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="umP-2C-YlV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gir-Gz-a0g">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsI-tq-OOJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gir-Gz-a0g" firstAttribute="centerY" secondItem="umP-2C-YlV" secondAttribute="centerY" id="O48-tG-rUr"/>
+                            <constraint firstItem="gir-Gz-a0g" firstAttribute="centerX" secondItem="umP-2C-YlV" secondAttribute="centerX" id="ke9-QV-s7R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="36y-wB-IZr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Customs" id="iyx-iZ-Ydg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rxb-dj-AS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-200" y="57"/>
+        </scene>
+    </scenes>
+</document>
