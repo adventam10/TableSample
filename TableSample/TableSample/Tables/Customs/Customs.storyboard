@@ -26,7 +26,7 @@
         <!--Customs-->
         <scene sceneID="mh8-zJ-F0j">
             <objects>
-                <viewController storyboardIdentifier="Initial" id="39N-nd-rDe" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Initial" id="39N-nd-rDe" customClass="CustomsIndexViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="umP-2C-YlV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

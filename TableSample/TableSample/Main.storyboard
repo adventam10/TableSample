@@ -26,7 +26,7 @@
         <!--Table Sample-->
         <scene sceneID="J7w-fn-n5z">
             <objects>
-                <viewController id="DLJ-Dr-0O0" sceneMemberID="viewController">
+                <viewController id="DLJ-Dr-0O0" customClass="ViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oNd-Id-7zs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
