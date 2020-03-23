@@ -15,3 +15,13 @@ Issueにあるやつか新たにIssueをたてて作業して下さい。
 他の人と重複して作業してしまうことを防ぐために "🙋"などでいいのでコメントをしてください。
 
 （めっちゃDroidKaigiのやつ意識した🤐）
+
+## 画面追加方法
+ 該当のIndexViewControllerにStoryboardボタンを追加する
+ 
+その後は下記いずれかの方法（Storyboardでのコンフリクトが嫌な場合は２個目がおすすめ）
+
+* 該当のStoryboardに画面を追加してボタンをsegueでつなぐ
+* 新規でStoryboardを追加してIndexViewControllerにコードで遷移処理をかく
+
+Storyboardやxibなどファイルが複数になる場合はフォルダにまとめていただけるとありがたいです🙇‍♂️
