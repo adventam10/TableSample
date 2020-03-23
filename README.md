@@ -13,7 +13,7 @@ Please see [CONTRIBUTING.ja.md](https://github.com/adventam10/TableSample/blob/m
 ## Defaults Appearances
 | Cell Style | AccessoryType | Color Cell | Selected Color |
 | --- | --- | --- | --- |
-| ![cell_style](https://user-images.githubusercontent.com/34936885/77146220-e6213f80-6acd-11ea-8c17-d0f6aab8c353.png) | ![cell_accessory_type](https://user-images.githubusercontent.com/34936885/77146243-f2a59800-6acd-11ea-8de6-536de9b9f33a.png) | ![color_cell](https://user-images.githubusercontent.com/34936885/77146520-90996280-6ace-11ea-9555-31437d8e5aa6.png) | ![selected_color_cell](https://user-images.githubusercontent.com/34936885/77146446-6051c400-6ace-11ea-9cc6-1138112b8ee8.png) |
+| ![cell_style](https://user-images.githubusercontent.com/34936885/77146220-e6213f80-6acd-11ea-8c17-d0f6aab8c353.png) | ![accessory](https://user-images.githubusercontent.com/34936885/77324781-9d31eb00-6d5a-11ea-9871-773cca1adb85.png) | ![color_cell](https://user-images.githubusercontent.com/34936885/77146520-90996280-6ace-11ea-9555-31437d8e5aa6.png) | ![selected_color_cell](https://user-images.githubusercontent.com/34936885/77146446-6051c400-6ace-11ea-9cc6-1138112b8ee8.png) |
 
 | Separator Style | Table Style | Grouped Detail | Color Section |
 | --- | --- | --- | --- |
