@@ -32,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UBh-Ja-tcg">
-                                <rect key="frame" x="142" y="364" width="130" height="168"/>
+                                <rect key="frame" x="142" y="341" width="130" height="214"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOW-wc-Ry5">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
@@ -60,6 +60,13 @@
                                         <state key="normal" title="Context Menu"/>
                                         <connections>
                                             <segue destination="rMX-Fk-67x" kind="show" id="GsS-GV-aaY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcw-09-sl1">
+                                        <rect key="frame" x="0.0" y="184" width="130" height="30"/>
+                                        <state key="normal" title="Swipe"/>
+                                        <connections>
+                                            <segue destination="G3o-5R-fqb" kind="show" id="pVX-JQ-8WB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -191,6 +198,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrY-eO-FzR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="458" y="773"/>
+        </scene>
+        <!--Swipe-->
+        <scene sceneID="N5V-YL-i1N">
+            <objects>
+                <tableViewController id="G3o-5R-fqb" customClass="SwipeTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5mf-nm-gJw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="vOZ-Vr-Enb" style="IBUITableViewCellStyleDefault" id="38Z-92-hmu">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="38Z-92-hmu" id="8X9-yc-AlO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vOZ-Vr-Enb">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="G3o-5R-fqb" id="c1E-Pc-pst"/>
+                            <outlet property="delegate" destination="G3o-5R-fqb" id="SJC-3v-TOr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Swipe" id="YBI-bQ-DZn"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7g-zd-Gbn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1059" y="805"/>
         </scene>
         <!--Cell Editing-->
         <scene sceneID="ThN-yy-ecb">
