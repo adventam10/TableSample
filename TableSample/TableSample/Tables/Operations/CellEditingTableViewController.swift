@@ -55,6 +55,8 @@ class CellEditingTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.rightBarButtonItem = editButtonItem
+//        tableView.isEditing = true // 初期表示で編集モードにしたい場合
+//        tableView.allowsSelectionDuringEditing = true // 編集モードの時も選択を有効にしたい場合
     }
 
     // MARK: - Table view data source
@@ -119,4 +121,9 @@ class CellEditingTableViewController: UITableViewController {
             tableView.endUpdates()
         }
     }
+
+    // 編集モードの時にインデントを無効にする場合（削除・追加ボタンが有る場合は効かない）
+//    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+//        return false
+//    }
 }
