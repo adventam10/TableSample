@@ -24,4 +24,12 @@ Please see [CONTRIBUTING.ja.md](https://github.com/adventam10/TableSample/blob/m
 | --- | --- | --- | --- |
 | ![multi_selection](https://user-images.githubusercontent.com/34936885/77222594-0c131680-6b98-11ea-9b0d-06b3d6a0b718.png) | ![unselectable_parts](https://user-images.githubusercontent.com/34936885/77222599-18976f00-6b98-11ea-81b3-f0cfe25c3f93.png) | ![cell_editing](https://user-images.githubusercontent.com/34936885/77222606-25b45e00-6b98-11ea-80f7-031e4d312d36.png) | ![context_menu](https://user-images.githubusercontent.com/34936885/77222614-3664d400-6b98-11ea-8e88-00c2d49602b0.png) |
 
+| Section Index |
+| --- |
+| <img width="300" alt="section_index" src="https://user-images.githubusercontent.com/34936885/77423970-b480df00-6e13-11ea-9e81-ca3468a31f86.png"> |
+
+| Swipe |
+| --- |
+| <img width="300" alt="swipe" src="https://user-images.githubusercontent.com/34936885/77423948-aaf77700-6e13-11ea-81a1-e040b1bf1f7a.gif"> |
+
 ## Customs
