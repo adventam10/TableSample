@@ -29,6 +29,7 @@
 		0E741DB62428F37300D67FFA /* DefaultAppearancesIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB52428F37300D67FFA /* DefaultAppearancesIndexViewController.swift */; };
 		0E741DB82428F38800D67FFA /* CustomsIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */; };
 		0E741DBA2428FB0000D67FFA /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB92428FB0000D67FFA /* SwipeTableViewController.swift */; };
+		0E741DBC242A208600D67FFA /* SectionIndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DBB242A208600D67FFA /* SectionIndexTableViewController.swift */; };
 		0EC9BC3D2425DF3C004C6264 /* Customs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9BC3C2425DF3C004C6264 /* Customs.storyboard */; };
 		0EC9BC3F2425FB8A004C6264 /* ContextMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC9BC3E2425FB8A004C6264 /* ContextMenuTableViewController.swift */; };
 		FAA3C55C2424E6BA000E70D6 /* CellEditingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3C55B2424E6BA000E70D6 /* CellEditingTableViewController.swift */; };
@@ -59,6 +60,7 @@
 		0E741DB52428F37300D67FFA /* DefaultAppearancesIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppearancesIndexViewController.swift; sourceTree = "<group>"; };
 		0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsIndexViewController.swift; sourceTree = "<group>"; };
 		0E741DB92428FB0000D67FFA /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		0E741DBB242A208600D67FFA /* SectionIndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionIndexTableViewController.swift; sourceTree = "<group>"; };
 		0EC9BC3C2425DF3C004C6264 /* Customs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Customs.storyboard; sourceTree = "<group>"; };
 		0EC9BC3E2425FB8A004C6264 /* ContextMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuTableViewController.swift; sourceTree = "<group>"; };
 		FAA3C55B2424E6BA000E70D6 /* CellEditingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellEditingTableViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				FAA3C55B2424E6BA000E70D6 /* CellEditingTableViewController.swift */,
 				0EC9BC3E2425FB8A004C6264 /* ContextMenuTableViewController.swift */,
 				0E741DB92428FB0000D67FFA /* SwipeTableViewController.swift */,
+				0E741DBB242A208600D67FFA /* SectionIndexTableViewController.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				0E63F3842424D8380086D9CC /* ColorSectionTableViewController.swift in Sources */,
 				0E741DB42428F35800D67FFA /* OperationsIndexViewController.swift in Sources */,
 				0E1ED17C24249A4100714B52 /* GroupedDetailViewController.swift in Sources */,
+				0E741DBC242A208600D67FFA /* SectionIndexTableViewController.swift in Sources */,
 				0EC9BC3F2425FB8A004C6264 /* ContextMenuTableViewController.swift in Sources */,
 				0E1ED16124247ED700714B52 /* ViewController.swift in Sources */,
 				0E1ED17A242494C300714B52 /* TableStyleViewController.swift in Sources */,
