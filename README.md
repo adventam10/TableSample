@@ -21,7 +21,7 @@ Please see [CONTRIBUTING.ja.md](https://github.com/adventam10/TableSample/blob/m
 
 ## Operations
 | Multi Selection | Multi Selection 2| Unselectable Parts | Cell Editing |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | ![multi_selection](https://user-images.githubusercontent.com/34936885/77222594-0c131680-6b98-11ea-9b0d-06b3d6a0b718.png) | ![multi_selection_2](https://user-images.githubusercontent.com/34936885/77543310-dbf6ab00-6eea-11ea-96c1-df66da3069d5.png) | ![unselectable_parts](https://user-images.githubusercontent.com/34936885/77222599-18976f00-6b98-11ea-81b3-f0cfe25c3f93.png) | ![cell_editing](https://user-images.githubusercontent.com/34936885/77222606-25b45e00-6b98-11ea-80f7-031e4d312d36.png) |
 
 
