@@ -32,45 +32,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UBh-Ja-tcg">
-                                <rect key="frame" x="142" y="318" width="130" height="260"/>
+                                <rect key="frame" x="129" y="295" width="156" height="306"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOW-wc-Ry5">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="156" height="30"/>
                                         <state key="normal" title="Multi Selection"/>
                                         <connections>
                                             <segue destination="f3K-hC-wSP" kind="show" id="25P-Zz-xSj"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEv-PI-gFB">
+                                        <rect key="frame" x="0.0" y="46" width="156" height="30"/>
+                                        <state key="normal" title="Multi Selection 2 (Left)"/>
+                                        <connections>
+                                            <segue destination="04p-Bi-uTa" kind="show" id="wys-f6-J0n"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDk-aj-aoo">
-                                        <rect key="frame" x="0.0" y="46" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="92" width="156" height="30"/>
                                         <state key="normal" title="Unselectable parts"/>
                                         <connections>
                                             <segue destination="pt1-DN-OMR" kind="show" id="zj5-1v-7y0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3N-5H-fQg">
-                                        <rect key="frame" x="0.0" y="92" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="138" width="156" height="30"/>
                                         <state key="normal" title="Cell Editing"/>
                                         <connections>
                                             <segue destination="hGc-Us-x59" kind="show" id="bCX-l1-zk2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-HR-aeg">
-                                        <rect key="frame" x="0.0" y="138" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="184" width="156" height="30"/>
                                         <state key="normal" title="Context Menu"/>
                                         <connections>
                                             <segue destination="rMX-Fk-67x" kind="show" id="GsS-GV-aaY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcw-09-sl1">
-                                        <rect key="frame" x="0.0" y="184" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="230" width="156" height="30"/>
                                         <state key="normal" title="Swipe"/>
                                         <connections>
                                             <segue destination="G3o-5R-fqb" kind="show" id="pVX-JQ-8WB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDx-u2-z7M">
-                                        <rect key="frame" x="0.0" y="230" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="276" width="156" height="30"/>
                                         <state key="normal" title="Section Index"/>
                                         <connections>
                                             <segue destination="Zh5-2d-Wlg" kind="show" id="4CZ-B3-V7z"/>
@@ -129,6 +136,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tI0-QA-ik1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="489" y="94"/>
+        </scene>
+        <!--Multi Selection 2-->
+        <scene sceneID="dat-9M-uK7">
+            <objects>
+                <tableViewController id="04p-Bi-uTa" customClass="MultiSelectionLeftTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rOX-uf-DhA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="0fY-kc-3OV" style="IBUITableViewCellStyleDefault" id="sMJ-Sm-rY8">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sMJ-Sm-rY8" id="pIq-FK-sRt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0fY-kc-3OV">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="04p-Bi-uTa" id="lG6-l8-d8B"/>
+                            <outlet property="delegate" destination="04p-Bi-uTa" id="dOC-aq-vNm"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Multi Selection 2" id="31t-9v-6tX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KIB-st-xjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1320" y="-599"/>
         </scene>
         <!--Section Index-->
         <scene sceneID="jEe-0y-yrT">
