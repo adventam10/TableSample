@@ -32,11 +32,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gir-Gz-a0g">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <rect key="frame" x="146" y="433" width="122" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsI-tq-OOJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="122" height="30"/>
+                                        <state key="normal" title="Double Accordion"/>
+                                        <connections>
+                                            <segue destination="DtE-bO-oLS" kind="show" id="n9t-Yp-aoY"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -53,6 +56,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rxb-dj-AS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-200" y="57"/>
+        </scene>
+        <!--Double Accordion-->
+        <scene sceneID="GoL-fu-NI4">
+            <objects>
+                <tableViewController id="DtE-bO-oLS" customClass="DoubleAccordionTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="44" sectionFooterHeight="28" id="QGY-i8-iao">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="DtE-bO-oLS" id="TTS-gH-kgB"/>
+                            <outlet property="delegate" destination="DtE-bO-oLS" id="ppK-ye-Ufx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Double Accordion" id="KYC-vn-H0b"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fu-3w-cm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="736"/>
         </scene>
     </scenes>
 </document>

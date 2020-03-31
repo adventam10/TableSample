@@ -25,6 +25,11 @@
 		0E63F38A2425091B0086D9CC /* Operations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E63F3892425091B0086D9CC /* Operations.storyboard */; };
 		0E63F38C242512950086D9CC /* MultiSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */; };
 		0E63F38E24251D3E0086D9CC /* UnselectablePartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */; };
+		0E6C0C1624335FF500395741 /* DoubleAccordionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C0C1524335FF500395741 /* DoubleAccordionTableViewController.swift */; };
+		0E6C0C1A2433699800395741 /* DoubleAccordionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C0C182433699800395741 /* DoubleAccordionTableViewCell.swift */; };
+		0E6C0C1B2433699800395741 /* DoubleAccordionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C0C192433699800395741 /* DoubleAccordionTableViewCell.xib */; };
+		0E6C0C1D24336D3000395741 /* DoubleAccordionTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C0C1C24336D3000395741 /* DoubleAccordionTableViewHeaderFooterView.swift */; };
+		0E6C0C1F24336D4C00395741 /* DoubleAccordionTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6C0C1E24336D4C00395741 /* DoubleAccordionTableViewHeaderFooterView.xib */; };
 		0E741DB42428F35800D67FFA /* OperationsIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB32428F35800D67FFA /* OperationsIndexViewController.swift */; };
 		0E741DB62428F37300D67FFA /* DefaultAppearancesIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB52428F37300D67FFA /* DefaultAppearancesIndexViewController.swift */; };
 		0E741DB82428F38800D67FFA /* CustomsIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */; };
@@ -57,6 +62,11 @@
 		0E63F3892425091B0086D9CC /* Operations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Operations.storyboard; sourceTree = "<group>"; };
 		0E63F38B242512950086D9CC /* MultiSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectionTableViewController.swift; sourceTree = "<group>"; };
 		0E63F38D24251D3E0086D9CC /* UnselectablePartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnselectablePartsTableViewController.swift; sourceTree = "<group>"; };
+		0E6C0C1524335FF500395741 /* DoubleAccordionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAccordionTableViewController.swift; sourceTree = "<group>"; };
+		0E6C0C182433699800395741 /* DoubleAccordionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAccordionTableViewCell.swift; sourceTree = "<group>"; };
+		0E6C0C192433699800395741 /* DoubleAccordionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoubleAccordionTableViewCell.xib; sourceTree = "<group>"; };
+		0E6C0C1C24336D3000395741 /* DoubleAccordionTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAccordionTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		0E6C0C1E24336D4C00395741 /* DoubleAccordionTableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoubleAccordionTableViewHeaderFooterView.xib; sourceTree = "<group>"; };
 		0E741DB32428F35800D67FFA /* OperationsIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsIndexViewController.swift; sourceTree = "<group>"; };
 		0E741DB52428F37300D67FFA /* DefaultAppearancesIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppearancesIndexViewController.swift; sourceTree = "<group>"; };
 		0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsIndexViewController.swift; sourceTree = "<group>"; };
@@ -153,11 +163,32 @@
 			path = Operations;
 			sourceTree = "<group>";
 		};
+		0E6C0C1424335FBC00395741 /* DoubleAccordion */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C0C1524335FF500395741 /* DoubleAccordionTableViewController.swift */,
+				0E6C0C172433697400395741 /* Parts */,
+			);
+			path = DoubleAccordion;
+			sourceTree = "<group>";
+		};
+		0E6C0C172433697400395741 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C0C182433699800395741 /* DoubleAccordionTableViewCell.swift */,
+				0E6C0C192433699800395741 /* DoubleAccordionTableViewCell.xib */,
+				0E6C0C1C24336D3000395741 /* DoubleAccordionTableViewHeaderFooterView.swift */,
+				0E6C0C1E24336D4C00395741 /* DoubleAccordionTableViewHeaderFooterView.xib */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
 		0EC9BC3B2425DF28004C6264 /* Customs */ = {
 			isa = PBXGroup;
 			children = (
 				0EC9BC3C2425DF3C004C6264 /* Customs.storyboard */,
 				0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */,
+				0E6C0C1424335FBC00395741 /* DoubleAccordion */,
 			);
 			path = Customs;
 			sourceTree = "<group>";
@@ -220,10 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6C0C1F24336D4C00395741 /* DoubleAccordionTableViewHeaderFooterView.xib in Resources */,
 				0E1ED16924247ED800714B52 /* LaunchScreen.storyboard in Resources */,
 				0EC9BC3D2425DF3C004C6264 /* Customs.storyboard in Resources */,
 				0E1ED16624247ED800714B52 /* Assets.xcassets in Resources */,
 				0E1ED16424247ED700714B52 /* DefaultAppearances.storyboard in Resources */,
+				0E6C0C1B2433699800395741 /* DoubleAccordionTableViewCell.xib in Resources */,
 				0E63F38A2425091B0086D9CC /* Operations.storyboard in Resources */,
 				0E63F388242507AF0086D9CC /* Main.storyboard in Resources */,
 			);
@@ -237,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E741DB62428F37300D67FFA /* DefaultAppearancesIndexViewController.swift in Sources */,
+				0E6C0C1624335FF500395741 /* DoubleAccordionTableViewController.swift in Sources */,
 				0E63F3842424D8380086D9CC /* ColorSectionTableViewController.swift in Sources */,
 				0E741DB42428F35800D67FFA /* OperationsIndexViewController.swift in Sources */,
+				0E6C0C1D24336D3000395741 /* DoubleAccordionTableViewHeaderFooterView.swift in Sources */,
 				0E1ED17C24249A4100714B52 /* GroupedDetailViewController.swift in Sources */,
 				0E741DBC242A208600D67FFA /* SectionIndexTableViewController.swift in Sources */,
 				0EC9BC3F2425FB8A004C6264 /* ContextMenuTableViewController.swift in Sources */,
@@ -254,6 +289,7 @@
 				0E1ED1762424894400714B52 /* CellAccessoryTypeTableViewController.swift in Sources */,
 				0E741DBA2428FB0000D67FFA /* SwipeTableViewController.swift in Sources */,
 				0E741DBE242B96FE00D67FFA /* MultiSelectionLeftTableViewController.swift in Sources */,
+				0E6C0C1A2433699800395741 /* DoubleAccordionTableViewCell.swift in Sources */,
 				0E63F38C242512950086D9CC /* MultiSelectionTableViewController.swift in Sources */,
 				0E1ED17E24249DC000714B52 /* ColorCellTableViewController.swift in Sources */,
 				0E63F38E24251D3E0086D9CC /* UnselectablePartsTableViewController.swift in Sources */,
