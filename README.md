@@ -30,3 +30,6 @@ Please see [CONTRIBUTING.ja.md](https://github.com/adventam10/TableSample/blob/m
 | <img width="300" alt="section_index" src="https://user-images.githubusercontent.com/34936885/77423970-b480df00-6e13-11ea-9e81-ca3468a31f86.png"> | <img width="300" alt="menu" src="https://user-images.githubusercontent.com/34936885/77222614-3664d400-6b98-11ea-8e88-00c2d49602b0.png"> | <img width="300" alt="swipe" src="https://user-images.githubusercontent.com/34936885/77423948-aaf77700-6e13-11ea-81a1-e040b1bf1f7a.gif"> |
 
 ## Customs
+| Single Accordion | Double Accordion |
+| --- | --- |
+| ![single](https://user-images.githubusercontent.com/34936885/80277463-12158d80-872a-11ea-89b2-f648f411aef2.gif) | ![accordion](https://user-images.githubusercontent.com/34936885/80277474-2b1e3e80-872a-11ea-9f60-a965f889288d.gif) |
