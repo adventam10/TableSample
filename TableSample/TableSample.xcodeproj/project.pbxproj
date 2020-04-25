@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0EBC342452ABC400D986A5 /* SingleAccordionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0EBC332452ABC400D986A5 /* SingleAccordionTableViewController.swift */; };
+		0E0EBC362452AD9400D986A5 /* SingleAccordionTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0EBC352452AD9400D986A5 /* SingleAccordionTableViewHeaderFooterView.swift */; };
+		0E0EBC382452ADE900D986A5 /* SingleAccordionTableViewHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0EBC372452ADE900D986A5 /* SingleAccordionTableViewHeaderFooterView.xib */; };
 		0E1ED15D24247ED700714B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED15C24247ED700714B52 /* AppDelegate.swift */; };
 		0E1ED15F24247ED700714B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED15E24247ED700714B52 /* SceneDelegate.swift */; };
 		0E1ED16124247ED700714B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1ED16024247ED700714B52 /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0EBC332452ABC400D986A5 /* SingleAccordionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAccordionTableViewController.swift; sourceTree = "<group>"; };
+		0E0EBC352452AD9400D986A5 /* SingleAccordionTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAccordionTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		0E0EBC372452ADE900D986A5 /* SingleAccordionTableViewHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleAccordionTableViewHeaderFooterView.xib; sourceTree = "<group>"; };
 		0E1ED15924247ED700714B52 /* TableSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1ED15C24247ED700714B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1ED15E24247ED700714B52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +95,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0EBC312452AB7800D986A5 /* SingleAccordion */ = {
+			isa = PBXGroup;
+			children = (
+				0E0EBC322452AB9F00D986A5 /* Parts */,
+				0E0EBC332452ABC400D986A5 /* SingleAccordionTableViewController.swift */,
+			);
+			path = SingleAccordion;
+			sourceTree = "<group>";
+		};
+		0E0EBC322452AB9F00D986A5 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				0E0EBC352452AD9400D986A5 /* SingleAccordionTableViewHeaderFooterView.swift */,
+				0E0EBC372452ADE900D986A5 /* SingleAccordionTableViewHeaderFooterView.xib */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
 		0E1ED15024247ED700714B52 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +212,7 @@
 			children = (
 				0EC9BC3C2425DF3C004C6264 /* Customs.storyboard */,
 				0E741DB72428F38800D67FFA /* CustomsIndexViewController.swift */,
+				0E0EBC312452AB7800D986A5 /* SingleAccordion */,
 				0E6C0C1424335FBC00395741 /* DoubleAccordion */,
 			);
 			path = Customs;
@@ -256,6 +281,7 @@
 				0EC9BC3D2425DF3C004C6264 /* Customs.storyboard in Resources */,
 				0E1ED16624247ED800714B52 /* Assets.xcassets in Resources */,
 				0E1ED16424247ED700714B52 /* DefaultAppearances.storyboard in Resources */,
+				0E0EBC382452ADE900D986A5 /* SingleAccordionTableViewHeaderFooterView.xib in Resources */,
 				0E6C0C1B2433699800395741 /* DoubleAccordionTableViewCell.xib in Resources */,
 				0E63F38A2425091B0086D9CC /* Operations.storyboard in Resources */,
 				0E63F388242507AF0086D9CC /* Main.storyboard in Resources */,
@@ -279,6 +305,8 @@
 				0EC9BC3F2425FB8A004C6264 /* ContextMenuTableViewController.swift in Sources */,
 				0E1ED16124247ED700714B52 /* ViewController.swift in Sources */,
 				0E1ED17A242494C300714B52 /* TableStyleViewController.swift in Sources */,
+				0E0EBC342452ABC400D986A5 /* SingleAccordionTableViewController.swift in Sources */,
+				0E0EBC362452AD9400D986A5 /* SingleAccordionTableViewHeaderFooterView.swift in Sources */,
 				FAA3C55C2424E6BA000E70D6 /* CellEditingTableViewController.swift in Sources */,
 				0E1ED1742424861E00714B52 /* CellStyleTableViewController.swift in Sources */,
 				0E1ED15D24247ED700714B52 /* AppDelegate.swift in Sources */,

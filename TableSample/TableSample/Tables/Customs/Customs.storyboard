@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YJG-tj-rq8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YJG-tj-rq8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,13 +32,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gir-Gz-a0g">
-                                <rect key="frame" x="146" y="433" width="122" height="30"/>
+                                <rect key="frame" x="146" y="410" width="122" height="76"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsI-tq-OOJ">
                                         <rect key="frame" x="0.0" y="0.0" width="122" height="30"/>
+                                        <state key="normal" title="Single Accordion"/>
+                                        <connections>
+                                            <segue destination="rIl-Jt-Ja6" kind="show" id="sYH-iE-QEF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGw-zi-YAm">
+                                        <rect key="frame" x="0.0" y="46" width="122" height="30"/>
                                         <state key="normal" title="Double Accordion"/>
                                         <connections>
-                                            <segue destination="DtE-bO-oLS" kind="show" id="n9t-Yp-aoY"/>
+                                            <segue destination="DtE-bO-oLS" kind="show" id="yeB-bK-Mbh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -56,6 +63,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rxb-dj-AS6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-200" y="57"/>
+        </scene>
+        <!--Single Accordion-->
+        <scene sceneID="kTY-rX-MWf">
+            <objects>
+                <tableViewController id="rIl-Jt-Ja6" customClass="SingleAccordionTableViewController" customModule="TableSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="44" sectionFooterHeight="28" id="ZSd-HQ-5QP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="QS6-w2-ogW" imageView="IZg-2l-qNI" style="IBUITableViewCellStyleDefault" id="8iR-hl-K7o">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8iR-hl-K7o" id="xdw-HW-VDx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QS6-w2-ogW">
+                                            <rect key="frame" x="59" y="0.0" width="335" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="doc.text" catalog="system" id="IZg-2l-qNI">
+                                            <rect key="frame" x="23" y="11.5" width="18" height="20"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rIl-Jt-Ja6" id="hwb-CJ-Uup"/>
+                            <outlet property="delegate" destination="rIl-Jt-Ja6" id="9zl-EH-44L"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Single Accordion" id="LzN-kL-x0Q"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B0t-16-Krb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="371"/>
         </scene>
         <!--Double Accordion-->
         <scene sceneID="GoL-fu-NI4">
@@ -77,4 +126,7 @@
             <point key="canvasLocation" x="-209" y="736"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="doc.text" catalog="system" width="115" height="128"/>
+    </resources>
 </document>
